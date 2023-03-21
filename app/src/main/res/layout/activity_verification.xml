@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c1a1a"
+    tools:context=".verification">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify Your Phone
+            Number"
+            android:textStyle="bold"
+            android:textSize="@dimen/_25sdp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="@dimen/_274sdp"
+            android:layout_height="@dimen/_37sdp"
+            android:text="We have sent you an SMS with a code to
+number +60 905070017"
+            android:textSize="@dimen/_15sdp"
+            android:gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="#40FFFFFF"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_margin="@dimen/_10sdp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

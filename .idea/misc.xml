@@ -4,11 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/fitness_workout/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/fitness_workout/app/src/main/res/drawable/background_white.xml" value="0.1445" />
+        <entry key="..\:/fitness_workout/app/src/main/res/drawable/button.xml" value="0.1445" />
         <entry key="..\:/fitness_workout/app/src/main/res/drawable/buttoncolor.xml" value="0.1445" />
+        <entry key="..\:/fitness_workout/app/src/main/res/drawable/create_account.xml" value="0.1445" />
+        <entry key="..\:/fitness_workout/app/src/main/res/drawable/edtbutton.xml" value="0.1445" />
         <entry key="..\:/fitness_workout/app/src/main/res/drawable/fitnessbackground.xml" value="0.1445" />
         <entry key="..\:/fitness_workout/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/fitness_workout/app/src/main/res/layout/Fitness_app.xml" value="0.22826086956521738" />
         <entry key="..\:/fitness_workout/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/fitness_workout/app/src/main/res/layout/activity_reset_password.xml" value="0.2222222222222222" />
+        <entry key="..\:/fitness_workout/app/src/main/res/layout/activity_verification.xml" value="0.20972222222222223" />
+        <entry key="..\:/fitness_workout/app/src/main/res/layout/create_account.xml" value="0.2222222222222222" />
+        <entry key="..\:/fitness_workout/app/src/main/res/layout/login_page_1.xml" value="0.22826086956521738" />
+        <entry key="..\:/fitness_workout/app/src/main/res/layout/loginpage.xml" value="0.264" />
       </map>
     </option>
   </component>

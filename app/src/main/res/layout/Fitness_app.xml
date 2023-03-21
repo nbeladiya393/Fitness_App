@@ -5,34 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
    android:orientation="vertical"
-    android:background="@drawable/fitness"
+    android:background="@drawable/img_1"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Shape Your Body"
-        android:layout_marginTop=""
-        android:textColor="#fff"
-        android:textSize="30dp"
-        android:textStyle="bold|italic"
+
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_weight="5"/>
+        android:src="@drawable/img_2"
+        android:layout_weight="1"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Shape Your Body"
+    android:textSize="@dimen/_25sdp"
+    android:textStyle="bold"
+    android:textColor="#fff"
+    android:layout_gravity="center"
+    android:gravity="center"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Boost your knowladge on the bolg. Find your
 fit with wear and gear"
+        android:textSize="@dimen/_20sdp"
+
         android:textColor="#fff"
-        android:textSize="25dp"
-android:layout_marginTop="-300dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="200dp"
-        android:layout_weight="0"/>
+        android:layout_weight="1"/>
+
 
     <Button
     android:layout_width="match_parent"
@@ -40,11 +44,19 @@ android:layout_marginTop="-300dp"
     android:text="Next"
     android:layout_margin="15dp"
 android:layout_marginTop="150dp"
+        android:background="@drawable/buttoncolor"
     android:textSize="20dp"
     android:gravity="center"
     android:layout_gravity="bottom"
         android:layout_weight=""/>
 
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Dont have account? Sign up"
+    android:textColor="#0476D1"
+    android:textSize="20dp"
+    android:gravity="center"/>
 
 
 </LinearLayout>
